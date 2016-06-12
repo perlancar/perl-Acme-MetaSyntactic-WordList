@@ -27,3 +27,9 @@ sub init_data {
 # ABSTRACT: Get meta names from WordList::*
 
 =for Pod::Coverage ^(.+)$
+
+=head1 DESCRIPTION
+
+This is a base class for C<Acme::MetaSyntactic::*> module that wants to get
+their meta names for a wordlist in corresponding C<WordList::*> module. An
+example of such module is L<Acme::MetaSyntactic::countries>.
